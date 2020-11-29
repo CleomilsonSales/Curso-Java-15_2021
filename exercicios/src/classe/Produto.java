@@ -6,5 +6,13 @@ public class Produto {
 	double preco;
 	double desconto;
 	
-
+	//metodo - quando parametros ja estão no objeto, não precisa passar no metodo para recebe-los, basta chama-los
+	double precoComDesconto() {
+		return preco * (1- desconto);
+	}
+	
+	//chamado um parametros que esta fora do objeto
+	double precoComDesconto(double descontoDoGerente) {
+		return preco * (1- desconto + descontoDoGerente);
+	}
 }
