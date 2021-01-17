@@ -1,6 +1,17 @@
-package classe;
+package classeMetodos;
 
 public class ChamarVariavel {
+	
+	//valores padrões de variveis de instancia ou estatica (classe)
+	//variavel local não tem inicialiação padrão
+	//objetos inciam em null
+	//constante (FINAL) deve ser iniciada
+	/*
+	 * byte, short, int, long -> 0
+	 * float, double -> 0.0
+	 * boolean -> false
+	 * char -> '\u0000' inicio da tabela unicode 
+	 * */
 	
 	int a = 3; //Variavel de instancia	
 	static int b = 4; //variavel estatica (classe)
