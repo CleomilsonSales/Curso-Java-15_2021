@@ -38,6 +38,14 @@ public class ExerciciosArray {
 		
 		System.out.println(totalAlunoB / notasAlunoB.length);
 		
+		//foreach - uma forma de correr o array mais simples
+		
+		System.out.print("Notas pelo foreach: ");
+		for (double notas: notasAlunoA) {
+			System.out.print(notas + " ");
+		}
+		System.out.println();
+		
 	}
 
 }
