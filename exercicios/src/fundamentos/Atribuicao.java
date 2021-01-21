@@ -16,6 +16,7 @@ public class Atribuicao {
 		//operadores unarios
 		c++; //incrementa no c seria mesmo que c = c + 1
 		
+		System.out.println(c);
 		int x = 1;
 		int y = 2;
 		
