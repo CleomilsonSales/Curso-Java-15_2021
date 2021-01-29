@@ -3,6 +3,10 @@ package oo.heranca;
 public class Heroi extends Jogador {
 	//herdando tudo do jogador
 	
+	Heroi(int x, int y){
+		super(x, y);
+	}
+	
 	//sobreescrenvendo metodo
 	boolean atacar(Jogador oponente) {
 		//Math.abs - pegando o valor absoluto, ignorando se é posito ou negativo
