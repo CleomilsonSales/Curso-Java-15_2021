@@ -1,6 +1,10 @@
 package oo.heranca;
 
 public class Heroi extends Jogador {
+	
+	//criar um variavel do tipo protected será visivel pela herança (extends) mas deve ser chamada 
+	//sem instancionar o objeto, deve ser chamada direito igual o public
+	
 	//herdando tudo do jogador
 	
 	Heroi(int x, int y){
