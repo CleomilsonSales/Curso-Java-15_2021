@@ -6,7 +6,7 @@ public abstract class Comida {
 	private double peso;
 
 	//metodo abstrato é para que ele seja definido em quem extender essa classe
-	public abstract String nutriente();
+	public abstract int nutriente(int peso);
 	
 	public Comida(double peso) {
 		setPeso(peso);
