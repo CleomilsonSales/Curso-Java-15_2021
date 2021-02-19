@@ -7,6 +7,7 @@ import java.util.function.UnaryOperator;
 
 public class Map {
 	public static void main(String[] args) {
+		//map faz uma mapeamento de um elemento para outro elemento
 		Consumer<String> print = System.out::print;
 		
 		List<String> marcas = Arrays.asList("BMW ", "Audi ","Honda ");

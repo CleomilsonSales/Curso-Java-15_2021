@@ -7,7 +7,7 @@ import java.util.function.Predicate;
 
 public class Filter {
 	public static void main(String[] args) {
-		
+		//filter é uma api para facilitar a ação de filtros
 		Alunos a1 = new Alunos("Ana", 7.8, false);
 		Alunos a2 = new Alunos("Pedro", 9.8, true);
 		Alunos a3 = new Alunos("Zeca", 5.8, true);
