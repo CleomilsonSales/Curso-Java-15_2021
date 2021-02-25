@@ -52,6 +52,20 @@ public class Alunos {
 			return false;
 		return true;
 	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public double getNota() {
+		return nota;
+	}
+
+	public boolean isBomComportamento() {
+		return bomComportamento;
+	}
+	
+	
 	
 	
 	
