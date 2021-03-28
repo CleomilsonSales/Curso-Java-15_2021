@@ -4,18 +4,18 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import modelo.basico.Usuario;
+import modelo.basico.Usuarios;
 
-public class NovoUsuario {
+public class TesteNovoUsuario {
 	public static void main(String[] args) {
 		EntityManagerFactory emf = Persistence.
-				createEntityManagerFactory("exercicios-jpa"); //nome do xml
+				createEntityManagerFactory("exercicios-jpa2"); //nome do xml
 		EntityManager em = emf.createEntityManager();
 		
-		Usuario novoUsuario = new Usuario("Rita", "ritamiranda@gmail.com");
+		Usuarios usuario = new Usuarios("Saori","saori@gmail.com","Presidente");
 		
 		em.getTransaction().begin();
-		em.persist(novoUsuario); //insert
+		em.persist(usuario); //insert
 		em.getTransaction().commit();
 		
 		em.close();
