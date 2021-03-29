@@ -6,8 +6,9 @@
     <persistence-unit name="exercicios-jpa2">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         
-        <!-- referenciar as classes -->
+        <!-- referenciando as classes -->
         <class>modelo.basico.Usuarios</class>
+        <class>modelo.basico.Produto</class>
         
         <properties>
             <property name="javax.persistence.jdbc.driver"

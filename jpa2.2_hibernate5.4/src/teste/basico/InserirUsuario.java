@@ -12,7 +12,7 @@ public class InserirUsuario {
 				createEntityManagerFactory("exercicios-jpa2"); //nome do xml
 		EntityManager em = emf.createEntityManager();
 		
-		Usuarios usuario = new Usuarios("Mazinha","mainha@gmail.com","Diretora");
+		Usuarios usuario = new Usuarios("Teste","teste@gmail.com","Diretora");
 		
 		em.getTransaction().begin();
 		em.persist(usuario); //insert
