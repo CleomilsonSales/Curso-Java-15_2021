@@ -50,6 +50,10 @@ public class DAO<E> {
 		return this.abrirTransacao().incluir(entidade).fecharTransacao();
 	}
 	
+	public E obterPorId(Object id) {
+		return em.find(classe, id);
+	}
+	
 	public List<E> obterTodos(){
 		return this.obterTodos(10, 0);
 	}
