@@ -13,6 +13,8 @@
         <class>modelo.umpraum.Cliente</class>
         <class>modelo.umpramuitos.Pedido</class>
         <class>modelo.umpramuitos.ItemPedido</class>
+        <class>modelo.muitospramuitos.Tio</class>
+        <class>modelo.muitospramuitos.Sobrinhos</class>
         
         <properties>
             <property name="javax.persistence.jdbc.driver"
