@@ -5,6 +5,8 @@
 			 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
     <persistence-unit name="exercicios-jpa2">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <!-- chamando as Named Query -->
+        <mapping-file>META-INF/consultas_namedQuery.xml</mapping-file>
         
         <!-- referenciando as classes -->
         <class>modelo.basico.Usuarios</class>
@@ -17,6 +19,9 @@
         <class>modelo.muitospramuitos.Sobrinhos</class>
         <class>modelo.muitospramuitos.Filme</class>
         <class>modelo.muitospramuitos.Ator</class>
+        <class>modelo.composicao.Endereco</class>
+        <class>modelo.composicao.Fornecedor</class>
+        <class>modelo.composicao.Funcionario</class>
         
         <properties>
             <property name="javax.persistence.jdbc.driver"
