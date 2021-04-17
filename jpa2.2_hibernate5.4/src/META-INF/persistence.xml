@@ -15,6 +15,8 @@
         <class>modelo.umpramuitos.ItemPedido</class>
         <class>modelo.muitospramuitos.Tio</class>
         <class>modelo.muitospramuitos.Sobrinhos</class>
+        <class>modelo.muitospramuitos.Filme</class>
+        <class>modelo.muitospramuitos.Ator</class>
         
         <properties>
             <property name="javax.persistence.jdbc.driver"
