@@ -6,7 +6,7 @@
     <persistence-unit name="exercicios-jpa2">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <!-- chamando as Named Query -->
-        <mapping-file>META-INF/consultas_namedQuery.xml</mapping-file>
+        <mapping-file>META-INF/consultas.xml</mapping-file>
         
         <!-- referenciando as classes -->
         <class>modelo.basico.Usuarios</class>
