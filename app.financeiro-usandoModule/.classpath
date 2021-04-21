@@ -6,7 +6,17 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="/app.calculo-usandoModule">
+	<classpathentry combineaccessrules="false" kind="src" path="/app-api-public">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/app.logging">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/app.calculo-usandoModule">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>

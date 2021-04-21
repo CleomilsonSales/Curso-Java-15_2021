@@ -8,10 +8,10 @@
 
 	<named-query name="ObterFilmesNotaMaiorQue">
 		<query>
-				<!-- lembrando que jpql passa o nome da entidade, não da tabela -->
-				select distinct f from Filme f join fetch f.atores where
-				f.nota > :nota
-			</query>
+			<!-- lembrando que jpql passa o nome da entidade, não da tabela -->
+			select distinct f from Filme f join fetch f.atores where
+			f.nota > :nota
+		</query>
 	</named-query>
 
 
