@@ -1,6 +1,7 @@
 package layout;
 
 import javafx.application.Application;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
@@ -26,7 +27,13 @@ public class AppLayout extends Application{
 		temp.getChildren().add(new Quadrado());
 		temp.getChildren().add(new Quadrado());
 		
-		Scene principal = new Scene(temp, 800, 600);
+		Parent cenas;
+		cenas = temp;
+		cenas = new TesteAnchorPane();
+		cenas = new TesteBorderPane();
+		cenas = new TesteFlowPane();
+		
+		Scene principal = new Scene(cenas, 800, 600);
 		
 		primaryStage.setScene(principal);
 		primaryStage.setTitle("Gerenciadores de Layout");
