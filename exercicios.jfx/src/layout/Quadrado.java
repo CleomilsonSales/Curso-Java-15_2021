@@ -13,13 +13,13 @@ public class Quadrado extends Rectangle{
 	};
 	
 	public Quadrado() {
-		this(100, 100);
+		this(100);
 	}
 	
-	public Quadrado(int largura, int altura) {
+	public Quadrado(int tamanho) {
 		
-		setWidth(largura);
-		setHeight(altura);
+		setWidth(tamanho);
+		setHeight(tamanho);
 
 		if (i > 5) i = 0;
 

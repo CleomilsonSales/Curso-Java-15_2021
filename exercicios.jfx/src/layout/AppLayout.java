@@ -32,6 +32,9 @@ public class AppLayout extends Application{
 		cenas = new TesteAnchorPane();
 		cenas = new TesteBorderPane();
 		cenas = new TesteFlowPane();
+		cenas = new TesteGridPane();
+		//cenas = new TesteStackPane(); //comentei por causa da thread
+		cenas = new TesteTilePane();
 		
 		Scene principal = new Scene(cenas, 800, 600);
 		
